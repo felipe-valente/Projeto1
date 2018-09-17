@@ -1,0 +1,265 @@
+/* CSS da pagina principal */
+.header1 {
+	margin: 1rem;
+}
+
+.insper{
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: -0.05rem;
+	display: flex;
+	justify-content: center;
+	font-size: 2rem;
+}
+
+.navbar{
+	display: flex;
+	flex-flow: row wrap;
+	padding: 1rem;
+	justify-content: center;
+}
+
+.item-header{
+	font-size: 1.2rem;
+	padding: 0 1rem;
+}
+
+#destaques, #navegar{
+	display: flex;
+	justify-content: center;
+	font-size: 1.5rem;
+}
+
+.parent{
+	display: grid;
+	grid-template-rows: 25% 25% 25% 25%;
+	grid-template-columns: 25% 25% 25% 25%;
+	margin: auto;
+	padding: 1rem;
+	grid-gap: 1rem;
+	max-width: 73rem;
+}
+
+.child1, .child2, .child3{
+	border: 0.1rem solid;
+	padding: 0.5rem;
+}
+/*.mask
+{
+    border-style: solid;
+    border-width: 0 0 3px 3px;
+    position: relative;
+    float: right;
+    clear: none;
+    right: -3px;
+    top: -3px;
+    background-color: white;
+    width: 70%;
+    height: 6em;
+}*/
+#foto-modsim{
+	float: right;
+	grid-row-start: 1; 
+	grid-row-end: 2;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	width: 55%;
+}
+
+#titulo-modsim{
+	border: 0.1rem solid;
+	padding: 0.5rem;
+	grid-row-start: 1; 
+	grid-row-end: 2;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	font-size: 1.2rem;
+}
+
+.child1{
+	font-family: Nunito;
+	letter-spacing: 0.05;
+	grid-row-start: 2; 
+	grid-row-end: 5;
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+#foto-ds{
+	float: right;
+	grid-row-start: 1; 
+	grid-row-end: 2;
+	grid-column-start: 4;
+	grid-column-end: 5;
+	width: 40%;
+}
+
+#titulo-ds{
+	border: 0.1rem solid;
+	padding: 0.5rem;
+	grid-row-start: 1; 
+	grid-row-end: 2;
+	grid-column-start: 3;
+	grid-column-end: 4;
+}
+
+.child2{
+	grid-row-start: 2; 
+	grid-row-end: 3;
+	grid-column-start: 3;
+	grid-column-end: 5;
+}
+
+#foto-em{
+	float: right;
+	grid-row-start: 3; 
+	grid-row-end: 4;
+	grid-column-start: 4;
+	grid-column-end: 5;
+	width: 40%;
+}
+
+#titulo-em{
+	border: 0.1rem solid;
+	padding: 0.5rem;
+	grid-row-start: 3; 
+	grid-row-end: 4;
+	grid-column-start: 3;
+	grid-column-end: 4;
+}
+
+.child3{
+	grid-row-start: 4; 
+	grid-row-end: 5;
+	grid-column-start: 3;
+	grid-column-end: 5;
+}
+
+.vertodos{
+	display: grid;
+	grid-template-columns: 50% 50%;
+	margin: auto ;
+	padding: 1rem;
+	grid-gap: 1rem;
+	max-width: 40rem;
+}
+
+.ver-todos-box1, .ver-todos-box2{
+	border: 0.1rem solid;
+	padding: 0.5rem;
+}
+
+.ver-todos-box1{
+	grid-column-start: 1;
+	grid-column-end: 2;
+}
+
+.ver-todos-box2{
+	grid-column-start: 2;
+	grid-column-end: 3;
+}
+
+.footer{
+	display: flex;
+	flex-flow: row wrap;
+	padding: 1rem;
+	margin: 1rem;
+	justify-content: space-around;
+	border: 0.1rem solid;
+	padding: 0.5rem;
+}
+.footer-item{
+	font-size: 1rem;
+
+}
+
+/* CSS da pagina dos projetos */
+
+.header {
+	position: relative;
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 2px;
+	margin:20px 20px 20px 10px;
+	padding:5px;
+	
+}
+
+.titulo {
+	text-align: center;
+	position: relative; 
+	
+	
+}
+.nav{
+	text-align: center;
+	position: relative;
+	margin-top: 10px;
+}
+
+.nav-item {
+	margin: 10px 30px 10px 30px;
+	display: inline-block;
+	position: relative;
+}
+
+.main-disciplina {
+	border: 2px solid;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 10px;
+
+}
+.item-oa{
+	list-style-type: decimal;
+	margin-left: 30px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+.subnav {
+	background-color: magenta;
+	position: absolute;
+	width: 120px;
+	visibility: hidden;
+}
+
+.nav-item:hover .subnav {
+	visibility: visible;
+}
+.item-ex {
+	list-style-type: circle;
+	margin-left: 30px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+
+}
+.item-con {
+	list-style-type: circle;
+	margin-left: 30px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+
+}
+.img-prj {
+	width: 500px;
+	margin: 20px;
+}
+.head-dis{
+	margin: 10px 0px 10px 0px;
+}
+.head-des{
+	margin: 10px 0px 5px 0px;
+}
+.head-con{
+	margin-top: 10px;
+
+}
+
+
